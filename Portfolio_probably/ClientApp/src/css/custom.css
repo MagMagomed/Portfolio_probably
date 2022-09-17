@@ -1,0 +1,112 @@
+/*--------------------------------------------���������--------------------------------------------*/
+html {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@media screen and (max-width:900) {
+    html {
+        font-size: 14px;
+    }
+}
+
+body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    color: white;
+}
+.def-container {
+    background-color: rgb(230, 230, 230);
+    color: rgb(50, 50, 50);
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    width: 75%;
+    min-height: 100%;
+}
+.def-content {
+    margin-left: 15%;
+    margin-top: 150px;
+}
+.def-heading {
+    font-size: 3rem;
+    line-height: 6rem;
+}
+.def-subheading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 100;
+    max-width: 650px;
+}
+.def-body {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 75%;
+}
+.def-body b {
+    font-weight: 500;
+}
+.def-ul {
+    margin-left: 50px;
+}
+.def-li {
+    list-style-type: none;
+}
+@media screen and (max-width:900px) {
+    
+    .def-heading {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-transform: uppercase;
+    }
+    .def-subheading {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+}
+@media (max-width: 1200px) {
+    .def-content {
+        margin-left: 15%;
+        margin-top: 250px;
+    }
+    .def-container { 
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+@media screen and (max-width:280px) {
+
+    .def-content {
+        margin-top: 50px;
+    }
+}
